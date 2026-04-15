@@ -16,60 +16,65 @@
         body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 20px; }
         .header { text-align: center; padding: 40px; }
         h1 { font-weight: 800; font-size: 3rem; margin: 0; background: linear-gradient(135deg, #00f2ff 0%, #00ff88 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; max-width: 1000px; margin: 0 auto; }
-        .card { background: var(--card); border-radius: 20px; padding: 20px; border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; justify-content: space-between; transition: 0.3s; }
-        .card:hover { border-color: var(--accent); transform: translateY(-5px); }
-        .size-tag { font-size: 0.7rem; color: var(--accent); margin-bottom: 15px; display: block; }
-        .dl-btn { background: var(--accent); color: #000; text-align: center; text-decoration: none; padding: 12px; border-radius: 12px; font-weight: 800; text-transform: uppercase; font-size: 0.8rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; max-width: 1100px; margin: 0 auto; }
+        .card { background: var(--card); border-radius: 20px; padding: 25px; border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; justify-content: space-between; transition: 0.3s; }
+        .card:hover { border-color: var(--accent); transform: translateY(-5px); box-shadow: var(--neon-glow); }
+        .size-tag { font-size: 0.75rem; color: var(--accent); background: rgba(0, 242, 255, 0.1); padding: 4px 8px; border-radius: 10px; margin-bottom: 15px; display: inline-block; }
+        .dl-btn { background: var(--accent); color: #000; text-align: center; text-decoration: none; padding: 14px; border-radius: 12px; font-weight: 800; text-transform: uppercase; font-size: 0.85rem; }
+        .footer { text-align: center; margin-top: 80px; padding: 20px; color: #666; font-size: 0.9rem; border-top: 1px solid rgba(255,255,255,0.05); }
     </style>
 </head>
 <body>
 
 <div class="header">
     <h1>DPZX STORE</h1>
-    <p style="opacity: 0.5;">Directe GitHub Download Hub</p>
+    <p style="opacity: 0.5;">Premium Android APK source</p>
 </div>
 
 <div class="grid">
     <div class="card">
         <div><h3>2048</h3><span class="size-tag">2.2 MB</span></div>
-        <a href="2048.dpzxtekstore.apk" class="dl-btn">Download</a>
+        <a href="https://dpzxtek-2026.github.io/android/2048.dpzxtekstore.apk" class="dl-btn">Download</a>
     </div>
 
     <div class="card">
         <div><h3>Doodle</h3><span class="size-tag">4.5 MB</span></div>
-        <a href="Doodle.apk" class="dl-btn">Download</a>
+        <a href="https://dpzxtek-2026.github.io/android/Doodle.apk" class="dl-btn">Download</a>
     </div>
 
     <div class="card">
         <div><h3>DrawAnywhere</h3><span class="size-tag">2.3 MB</span></div>
-        <a href="Drawanywhere.apk" class="dl-btn">Download</a>
+        <a href="https://dpzxtek-2026.github.io/android/Drawanywhere.apk" class="dl-btn">Download</a>
     </div>
 
     <div class="card">
         <div><h3>Aurora Store</h3><span class="size-tag">8.8 MB</span></div>
-        <a href="aurorastore.apk" class="dl-btn">Download</a>
+        <a href="https://dpzxtek-2026.github.io/android/aurorastore.apk" class="dl-btn">Download</a>
     </div>
 
     <div class="card">
         <div><h3>Game Emulator</h3><span class="size-tag">11.1 MB</span></div>
-        <a href="game-emu.apk" class="dl-btn">Download</a>
+        <a href="https://dpzxtek-2026.github.io/android/game-emu.apk" class="dl-btn">Download</a>
     </div>
 
     <div class="card">
         <div><h3>Minetest</h3><span class="size-tag">17.0 MB</span></div>
-        <a href="minetest.apk" class="dl-btn">Download</a>
+        <a href="https://dpzxtek-2026.github.io/android/minetest.apk" class="dl-btn">Download</a>
     </div>
 
     <div class="card">
         <div><h3>PojavLauncher</h3><span class="size-tag">150.6 MB</span></div>
-        <a href="https://apk-dpzxtek-store.netlify.app/PojavLauncher.apk" class="dl-btn">Download (Netlify)</a>
+        <a href="https://apk-dpzxtek-store.netlify.app/PojavLauncher.apk" class="dl-btn">Download APK</a>
     </div>
 
     <div class="card">
         <div><h3>SuperTuxKart</h3><span class="size-tag">179.4 MB</span></div>
-        <a href="https://apk-dpzxtek-store.netlify.app/supertuxkart.apk" class="dl-btn">Download (Netlify)</a>
+        <a href="https://apk-dpzxtek-store.netlify.app/supertuxkart.apk" class="dl-btn">Download APK</a>
     </div>
+</div>
+
+<div class="footer">
+    ©dpzxtek 2026 - app store for android!
 </div>
 
 </body>
